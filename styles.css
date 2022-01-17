@@ -1,0 +1,76 @@
+.everything{
+    background: rgb(200, 230, 230);
+}
+.holder{
+   
+    position: relative;
+   top:50px;
+   left:50px;
+   width: 300px;
+    
+}
+.title{
+    font-size:16pt;
+    color:hsl(179, 62%, 43%);
+    font-weight:700;
+
+}
+p{
+    font-size:11pt;
+    font-weight:400;
+
+}
+.yellow{
+    color:hsl(71, 73%, 54%);
+}
+.grey{
+    color:hsl(218, 22%, 67%);
+}
+
+.white{
+    color:white;
+}
+.huge{
+    font-size:20pt;
+    font-weight:800px;
+}
+.top-box{
+    background:white;
+    border: 1px solid white;
+    border-radius:  2%;
+    width:50%;
+}
+.left-box{
+border:1px solid hsl(179, 62%, 43%);
+background:hsl(179, 62%, 43%);
+width:25%;
+top:100%;
+position:absolute;
+height:200px;
+}
+button{
+    background-color:hsl(71, 73%, 54%);
+    color:white;
+    border:none;
+    position:absolute;
+    display:flex;
+    align-items: center;
+}
+.right-box{
+    background-color:hsl(179, 60%, 49%);
+    width:25%;
+    position:absolute;
+    top:100%;
+    right: 51%;
+height:200px;
+
+}
+.box-three-title{
+    color:white;
+    padding-left:30px;
+    font-size:20pt;
+}
+.box-three-text{
+    color:white;
+    padding-left:30px;
+}
